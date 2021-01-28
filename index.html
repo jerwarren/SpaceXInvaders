@@ -1,11 +1,10 @@
 ﻿<html><head>
 <title>PICO-8 Cartridge</title>
 <meta name="viewport" content="width=device-width, user-scalable=no">
-
+	 <link rel="stylesheet" type="text/css" src="surface-duo.css">
 <script type="text/javascript">
 
 	// Default shell for PICO-8 0.2.1
-
 	// options
 
 	// fullscreen, sound, close button at top when playing on touchscreen
@@ -559,7 +558,7 @@
 
 		}
 		e.type = "application/javascript";
-		e.src = "spacexinvaders.js";
+		e.src = "spacexinvaders.js?foo";
 		e.id = "e_script";
 		
 		document.body.appendChild(e); // load and run
@@ -734,7 +733,7 @@ canvas{
 
 -->
 </STYLE>
-<link rel="stylesheet" type="text/css" href="surface-duo.css?34345"> 
+
 </head>
 
 <body style="padding:0px; margin:0px; background-color:#222; color:#ccc">
@@ -746,7 +745,7 @@ canvas{
 
 <div id="p8_desktop" style="display:block; position:absolute; top:10px; left:10px"></div> <!-- desktop for saving gifs / screenshots -->
 <div id="p8_frame_0" style="max-width:800px; max-height:800px; margin:auto;"> <!-- double function: limit size, and display only this div for touch devices -->
-<div id="p8_frame" style="display:flex; width:100%; max-width:95vw; height:100vw; max-height:95vh; margin:auto;">
+<div id="p8_frame">
 
 	<div id="p8_menu_buttons_touch" style="position:absolute; width:100%; z-index:10; left:0px;">
 		<div class="p8_menu_button" id="p8b_full"  style="float:left;margin-left:10px" onClick="p8_give_focus(); p8_request_fullscreen();"></div>
