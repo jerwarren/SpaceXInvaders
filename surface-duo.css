@@ -1,3 +1,7 @@
+#p8_frame {
+   display:flex; width:100%; max-width:95vw; height:100vw; max-height:95vh; margin:auto;
+}
+
 @media (screen-spanning: single-fold-vertical) {
    /* styles applied in double-portrait (wide) mode */
 
