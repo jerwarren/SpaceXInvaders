@@ -9,7 +9,7 @@
 @media (screen-spanning: single-fold-horizontal) {
    /* styles applied in double-landscape (tall) mode */
   #p8_frame {
-    height: 72vw!important;
+    height: 70vw!important;
   }
   #p8_frame_0 {
     height: 500px!important;
