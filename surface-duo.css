@@ -1,0 +1,10 @@
+@media (screen-spanning: single-fold-vertical) {
+   /* styles applied in double-portrait (wide) mode */
+
+}
+@media (screen-spanning: single-fold-horizontal) {
+   /* styles applied in double-landscape (tall) mode */
+  #p8_frame {
+    height: 88vw!important;
+  }
+}
